@@ -95,4 +95,8 @@ class PlayerViewController: AVPlayerViewController {
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return .Landscape
+    }
 }
