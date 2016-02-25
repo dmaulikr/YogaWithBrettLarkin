@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="99O-aE-uFh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="COR-Zy-5s0">
+            <objects>
+                <navigationController id="99O-aE-uFh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ut0-kN-joR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kmR-Wa-Cb9" kind="relationship" relationship="rootViewController" id="y7h-E1-pic"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgf-a0-JRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-754" y="241"/>
+        </scene>
+        <!--Choose the list-->
+        <scene sceneID="z8D-qf-CKX">
+            <objects>
+                <tableViewController id="kmR-Wa-Cb9" customClass="MainViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pJv-K9-Xy6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="c80-qq-VoQ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="Yz7-d0-hOU">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yz7-d0-hOU" id="kbu-wB-5zV">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="79"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Playlists" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gn0-w9-C9D">
+                                                    <rect key="frame" x="20" y="0.0" width="539" height="79"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="gn0-w9-C9D" secondAttribute="bottom" id="2yk-o8-X44"/>
+                                                <constraint firstItem="gn0-w9-C9D" firstAttribute="top" secondItem="kbu-wB-5zV" secondAttribute="top" id="BkC-Gg-ErH"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="gn0-w9-C9D" secondAttribute="trailing" id="VoZ-e4-8cy"/>
+                                                <constraint firstItem="gn0-w9-C9D" firstAttribute="leading" secondItem="kbu-wB-5zV" secondAttribute="leadingMargin" constant="12" id="kls-p4-Lcd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZoD-Vd-kQI" kind="show" id="hJ0-yh-8ss"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="Cgl-Mj-Xan">
+                                        <rect key="frame" x="0.0" y="144" width="600" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cgl-Mj-Xan" id="k5M-nA-BRq">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="79"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVS-aP-eZr">
+                                                    <rect key="frame" x="20" y="0.0" width="539" height="79"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dVS-aP-eZr" firstAttribute="leading" secondItem="k5M-nA-BRq" secondAttribute="leadingMargin" constant="12" id="OLN-1b-hS1"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="dVS-aP-eZr" secondAttribute="trailing" id="dXc-lV-zoX"/>
+                                                <constraint firstAttribute="bottom" secondItem="dVS-aP-eZr" secondAttribute="bottom" id="gfX-cW-waI"/>
+                                                <constraint firstItem="dVS-aP-eZr" firstAttribute="top" secondItem="k5M-nA-BRq" secondAttribute="top" id="qoE-T1-8bt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="VrA-oz-8ok" kind="show" id="LHu-b9-ZCB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="kmR-Wa-Cb9" id="cA5-3c-vr3"/>
+                            <outlet property="delegate" destination="kmR-Wa-Cb9" id="ek4-UZ-F0j"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Choose the list" id="eFV-Bl-igl"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uYe-cV-YI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147" y="240"/>
+        </scene>
+        <!--Playlists-->
+        <scene sceneID="JAy-r7-ocV">
+            <objects>
+                <collectionViewController id="ZoD-Vd-kQI" customClass="PlaylistsViewController" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="4mX-0r-Sw6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jwC-y5-Gms">
+                            <size key="itemSize" width="150" height="145"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="YoutubeCell" id="6aj-Xp-avH" customClass="YoutubeCell" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="150" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="145"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T3e-hF-1Hk">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="110"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="110" id="NzX-NM-TRe"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tXE-WS-1Nx">
+                                            <rect key="frame" x="0.0" y="110" width="150" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="tXE-WS-1Nx" firstAttribute="leading" secondItem="6aj-Xp-avH" secondAttribute="leading" id="UJx-pb-9yd"/>
+                                    <constraint firstItem="T3e-hF-1Hk" firstAttribute="top" secondItem="6aj-Xp-avH" secondAttribute="top" id="dVc-2J-7e1"/>
+                                    <constraint firstAttribute="trailing" secondItem="tXE-WS-1Nx" secondAttribute="trailing" id="dlU-oE-f1T"/>
+                                    <constraint firstAttribute="bottom" secondItem="tXE-WS-1Nx" secondAttribute="bottom" constant="5" id="f4A-KI-iPH"/>
+                                    <constraint firstItem="T3e-hF-1Hk" firstAttribute="leading" secondItem="6aj-Xp-avH" secondAttribute="leading" id="qse-Qf-mvo"/>
+                                    <constraint firstItem="tXE-WS-1Nx" firstAttribute="top" secondItem="T3e-hF-1Hk" secondAttribute="bottom" id="xsa-5T-heW"/>
+                                    <constraint firstAttribute="trailing" secondItem="T3e-hF-1Hk" secondAttribute="trailing" id="xwv-6l-azn"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="label" destination="tXE-WS-1Nx" id="7RB-1a-NS4"/>
+                                    <outlet property="thumbnail" destination="T3e-hF-1Hk" id="hsR-Ch-AoZ"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ZoD-Vd-kQI" id="HDi-eK-OzJ"/>
+                            <outlet property="delegate" destination="ZoD-Vd-kQI" id="Azk-na-uhh"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Playlists" id="jKv-8U-iYE"/>
+                    <connections>
+                        <outlet property="collectionView" destination="4mX-0r-Sw6" id="uYd-MU-iD3"/>
+                        <segue destination="OSS-YJ-gDl" kind="show" identifier="Playlist" id="AGr-ay-MDy"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDc-A3-8uI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="-486"/>
+        </scene>
+        <!--Videos-->
+        <scene sceneID="YKe-YD-7bh">
+            <objects>
+                <collectionViewController id="VrA-oz-8ok" customClass="CollectionViewController" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dkB-EG-jf7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZHO-L1-gvz">
+                            <size key="itemSize" width="150" height="145"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="YoutubeCell" id="gGM-Nb-1Ea" customClass="YoutubeCell" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="150" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="145"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Tf-Hs-UpB">
+                                            <rect key="frame" x="0.0" y="-1" width="150" height="110"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="110" id="ann-Bx-VYE"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6Kc-wK-bMN">
+                                            <rect key="frame" x="0.0" y="109" width="150" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="2Tf-Hs-UpB" firstAttribute="top" secondItem="gGM-Nb-1Ea" secondAttribute="top" constant="-1" id="D0w-ta-v9g"/>
+                                    <constraint firstItem="2Tf-Hs-UpB" firstAttribute="leading" secondItem="gGM-Nb-1Ea" secondAttribute="leading" id="RnM-fB-Tb8"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Kc-wK-bMN" secondAttribute="bottom" constant="6" id="Sgw-tK-CYY"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Tf-Hs-UpB" secondAttribute="trailing" id="VmP-j4-euL"/>
+                                    <constraint firstItem="6Kc-wK-bMN" firstAttribute="leading" secondItem="gGM-Nb-1Ea" secondAttribute="leading" id="ewR-ir-5Yh"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Kc-wK-bMN" secondAttribute="trailing" id="h3c-xg-4Js"/>
+                                    <constraint firstItem="6Kc-wK-bMN" firstAttribute="top" secondItem="2Tf-Hs-UpB" secondAttribute="bottom" id="li6-0Z-Jb7"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="label" destination="6Kc-wK-bMN" id="5AW-8w-XcV"/>
+                                    <outlet property="thumbnail" destination="2Tf-Hs-UpB" id="QO2-ik-T0p"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="VrA-oz-8ok" id="5CS-ro-PXR"/>
+                            <outlet property="delegate" destination="VrA-oz-8ok" id="CR9-Fh-2Ke"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Videos" id="7mk-Hc-Z3u"/>
+                    <connections>
+                        <outlet property="collectionView" destination="dkB-EG-jf7" id="pZu-ty-6xf"/>
+                        <segue destination="aMZ-dF-elB" kind="presentation" identifier="VideoPlayer" id="BDu-9N-iPB"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wRU-7f-HsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256" y="565"/>
+        </scene>
+        <!--Playlist-->
+        <scene sceneID="cs6-gK-jCW">
+            <objects>
+                <collectionViewController id="OSS-YJ-gDl" customClass="PlaylistViewController" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="8Zt-qx-dzS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cl0-Tm-s9Q">
+                            <size key="itemSize" width="150" height="145"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="YoutubeCell" id="hyI-gm-Gv5" customClass="YoutubeCell" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="150" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="145"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6gb-f6-bPH">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="110"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="110" id="7nq-1Z-RiX"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WBp-5v-syB">
+                                            <rect key="frame" x="0.0" y="110" width="150" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6gb-f6-bPH" secondAttribute="trailing" id="6NM-VA-aQz"/>
+                                    <constraint firstAttribute="trailing" secondItem="WBp-5v-syB" secondAttribute="trailing" id="G5C-4w-omG"/>
+                                    <constraint firstAttribute="bottom" secondItem="WBp-5v-syB" secondAttribute="bottom" constant="5" id="Qhf-Rb-Mxd"/>
+                                    <constraint firstItem="6gb-f6-bPH" firstAttribute="leading" secondItem="hyI-gm-Gv5" secondAttribute="leading" id="Z7W-Tg-avQ"/>
+                                    <constraint firstItem="WBp-5v-syB" firstAttribute="top" secondItem="6gb-f6-bPH" secondAttribute="bottom" id="dGw-xd-XhU"/>
+                                    <constraint firstItem="6gb-f6-bPH" firstAttribute="top" secondItem="hyI-gm-Gv5" secondAttribute="top" id="hfz-dY-awi"/>
+                                    <constraint firstItem="WBp-5v-syB" firstAttribute="leading" secondItem="hyI-gm-Gv5" secondAttribute="leading" id="pcG-J9-Vra"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="label" destination="WBp-5v-syB" id="Jcl-8F-hVD"/>
+                                    <outlet property="thumbnail" destination="6gb-f6-bPH" id="o0p-fx-uLC"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="OSS-YJ-gDl" id="CJ2-cB-L4e"/>
+                            <outlet property="delegate" destination="OSS-YJ-gDl" id="Ujf-xu-4kj"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Playlist" id="rJQ-P0-1S6"/>
+                    <connections>
+                        <outlet property="collectionView" destination="8Zt-qx-dzS" id="qjU-bS-e17"/>
+                        <segue destination="aMZ-dF-elB" kind="presentation" identifier="PlaylistPlayer" id="0Ym-1N-VgR"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQJ-aG-SqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1719" y="-488"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="0My-Rl-rzr">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="aMZ-dF-elB" customClass="PlayerViewController" customModule="Yoga_With_Brett_Larkin" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YO3-n3-tyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2607" y="177"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="0Ym-1N-VgR"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6315EA411C7F318D003E0D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA401C7F318D003E0D61 /* AppDelegate.swift */; };
+		6315EA461C7F318D003E0D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315EA441C7F318D003E0D61 /* Main.storyboard */; };
+		6315EA481C7F318D003E0D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6315EA471C7F318D003E0D61 /* Assets.xcassets */; };
+		6315EA4B1C7F318D003E0D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315EA491C7F318D003E0D61 /* LaunchScreen.storyboard */; };
+		6315EA561C7F318D003E0D61 /* Yoga_With_Brett_LarkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA551C7F318D003E0D61 /* Yoga_With_Brett_LarkinTests.swift */; };
+		6315EA6B1C7F3292003E0D61 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA611C7F3292003E0D61 /* CollectionViewController.swift */; };
+		6315EA6C1C7F3292003E0D61 /* GradientMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA621C7F3292003E0D61 /* GradientMaskView.swift */; };
+		6315EA6D1C7F3292003E0D61 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA631C7F3292003E0D61 /* MenuViewController.swift */; };
+		6315EA6E1C7F3292003E0D61 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA641C7F3292003E0D61 /* PlayerViewController.swift */; };
+		6315EA6F1C7F3292003E0D61 /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA651C7F3292003E0D61 /* PlaylistsViewController.swift */; };
+		6315EA701C7F3292003E0D61 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA661C7F3292003E0D61 /* PlaylistViewController.swift */; };
+		6315EA711C7F3292003E0D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA671C7F3292003E0D61 /* ViewController.swift */; };
+		6315EA721C7F3292003E0D61 /* YoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA681C7F3292003E0D61 /* YoutubeCell.swift */; };
+		6315EA731C7F3292003E0D61 /* YoutubeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA691C7F3292003E0D61 /* YoutubeItem.swift */; };
+		6315EA741C7F3292003E0D61 /* YoutubeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315EA6A1C7F3292003E0D61 /* YoutubeManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6315EA521C7F318D003E0D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6315EA351C7F318D003E0D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315EA3C1C7F318D003E0D61;
+			remoteInfo = "Yoga With Brett Larkin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6315EA3D1C7F318D003E0D61 /* Yoga With Brett Larkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga With Brett Larkin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6315EA401C7F318D003E0D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6315EA451C7F318D003E0D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6315EA471C7F318D003E0D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6315EA4A1C7F318D003E0D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6315EA4C1C7F318D003E0D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6315EA511C7F318D003E0D61 /* Yoga With Brett LarkinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yoga With Brett LarkinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6315EA551C7F318D003E0D61 /* Yoga_With_Brett_LarkinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoga_With_Brett_LarkinTests.swift; sourceTree = "<group>"; };
+		6315EA571C7F318D003E0D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6315EA611C7F3292003E0D61 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = Controllers/CollectionViewController.swift; sourceTree = "<group>"; };
+		6315EA621C7F3292003E0D61 /* GradientMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientMaskView.swift; path = Controllers/GradientMaskView.swift; sourceTree = "<group>"; };
+		6315EA631C7F3292003E0D61 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Controllers/MenuViewController.swift; sourceTree = "<group>"; };
+		6315EA641C7F3292003E0D61 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = Controllers/PlayerViewController.swift; sourceTree = "<group>"; };
+		6315EA651C7F3292003E0D61 /* PlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaylistsViewController.swift; path = Controllers/PlaylistsViewController.swift; sourceTree = "<group>"; };
+		6315EA661C7F3292003E0D61 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaylistViewController.swift; path = Controllers/PlaylistViewController.swift; sourceTree = "<group>"; };
+		6315EA671C7F3292003E0D61 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		6315EA681C7F3292003E0D61 /* YoutubeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeCell.swift; path = Controllers/YoutubeCell.swift; sourceTree = "<group>"; };
+		6315EA691C7F3292003E0D61 /* YoutubeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeItem.swift; path = Controllers/YoutubeItem.swift; sourceTree = "<group>"; };
+		6315EA6A1C7F3292003E0D61 /* YoutubeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeManager.swift; path = Controllers/YoutubeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6315EA3A1C7F318D003E0D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6315EA4E1C7F318D003E0D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6315EA341C7F318D003E0D61 = {
+			isa = PBXGroup;
+			children = (
+				6315EA3F1C7F318D003E0D61 /* Yoga With Brett Larkin */,
+				6315EA541C7F318D003E0D61 /* Yoga With Brett LarkinTests */,
+				6315EA3E1C7F318D003E0D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6315EA3E1C7F318D003E0D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6315EA3D1C7F318D003E0D61 /* Yoga With Brett Larkin.app */,
+				6315EA511C7F318D003E0D61 /* Yoga With Brett LarkinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6315EA3F1C7F318D003E0D61 /* Yoga With Brett Larkin */ = {
+			isa = PBXGroup;
+			children = (
+				6315EA601C7F326D003E0D61 /* Controllers */,
+				6315EA401C7F318D003E0D61 /* AppDelegate.swift */,
+				6315EA441C7F318D003E0D61 /* Main.storyboard */,
+				6315EA471C7F318D003E0D61 /* Assets.xcassets */,
+				6315EA491C7F318D003E0D61 /* LaunchScreen.storyboard */,
+				6315EA4C1C7F318D003E0D61 /* Info.plist */,
+			);
+			path = "Yoga With Brett Larkin";
+			sourceTree = "<group>";
+		};
+		6315EA541C7F318D003E0D61 /* Yoga With Brett LarkinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6315EA551C7F318D003E0D61 /* Yoga_With_Brett_LarkinTests.swift */,
+				6315EA571C7F318D003E0D61 /* Info.plist */,
+			);
+			path = "Yoga With Brett LarkinTests";
+			sourceTree = "<group>";
+		};
+		6315EA601C7F326D003E0D61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6315EA611C7F3292003E0D61 /* CollectionViewController.swift */,
+				6315EA621C7F3292003E0D61 /* GradientMaskView.swift */,
+				6315EA631C7F3292003E0D61 /* MenuViewController.swift */,
+				6315EA641C7F3292003E0D61 /* PlayerViewController.swift */,
+				6315EA651C7F3292003E0D61 /* PlaylistsViewController.swift */,
+				6315EA661C7F3292003E0D61 /* PlaylistViewController.swift */,
+				6315EA671C7F3292003E0D61 /* ViewController.swift */,
+				6315EA681C7F3292003E0D61 /* YoutubeCell.swift */,
+				6315EA691C7F3292003E0D61 /* YoutubeItem.swift */,
+				6315EA6A1C7F3292003E0D61 /* YoutubeManager.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6315EA3C1C7F318D003E0D61 /* Yoga With Brett Larkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6315EA5A1C7F318D003E0D61 /* Build configuration list for PBXNativeTarget "Yoga With Brett Larkin" */;
+			buildPhases = (
+				6315EA391C7F318D003E0D61 /* Sources */,
+				6315EA3A1C7F318D003E0D61 /* Frameworks */,
+				6315EA3B1C7F318D003E0D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yoga With Brett Larkin";
+			productName = "Yoga With Brett Larkin";
+			productReference = 6315EA3D1C7F318D003E0D61 /* Yoga With Brett Larkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6315EA501C7F318D003E0D61 /* Yoga With Brett LarkinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6315EA5D1C7F318D003E0D61 /* Build configuration list for PBXNativeTarget "Yoga With Brett LarkinTests" */;
+			buildPhases = (
+				6315EA4D1C7F318D003E0D61 /* Sources */,
+				6315EA4E1C7F318D003E0D61 /* Frameworks */,
+				6315EA4F1C7F318D003E0D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6315EA531C7F318D003E0D61 /* PBXTargetDependency */,
+			);
+			name = "Yoga With Brett LarkinTests";
+			productName = "Yoga With Brett LarkinTests";
+			productReference = 6315EA511C7F318D003E0D61 /* Yoga With Brett LarkinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6315EA351C7F318D003E0D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ayk;
+				TargetAttributes = {
+					6315EA3C1C7F318D003E0D61 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6315EA501C7F318D003E0D61 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6315EA3C1C7F318D003E0D61;
+					};
+				};
+			};
+			buildConfigurationList = 6315EA381C7F318D003E0D61 /* Build configuration list for PBXProject "Yoga With Brett Larkin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6315EA341C7F318D003E0D61;
+			productRefGroup = 6315EA3E1C7F318D003E0D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6315EA3C1C7F318D003E0D61 /* Yoga With Brett Larkin */,
+				6315EA501C7F318D003E0D61 /* Yoga With Brett LarkinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6315EA3B1C7F318D003E0D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315EA4B1C7F318D003E0D61 /* LaunchScreen.storyboard in Resources */,
+				6315EA481C7F318D003E0D61 /* Assets.xcassets in Resources */,
+				6315EA461C7F318D003E0D61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6315EA4F1C7F318D003E0D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6315EA391C7F318D003E0D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315EA6B1C7F3292003E0D61 /* CollectionViewController.swift in Sources */,
+				6315EA6C1C7F3292003E0D61 /* GradientMaskView.swift in Sources */,
+				6315EA731C7F3292003E0D61 /* YoutubeItem.swift in Sources */,
+				6315EA701C7F3292003E0D61 /* PlaylistViewController.swift in Sources */,
+				6315EA411C7F318D003E0D61 /* AppDelegate.swift in Sources */,
+				6315EA6D1C7F3292003E0D61 /* MenuViewController.swift in Sources */,
+				6315EA6F1C7F3292003E0D61 /* PlaylistsViewController.swift in Sources */,
+				6315EA711C7F3292003E0D61 /* ViewController.swift in Sources */,
+				6315EA6E1C7F3292003E0D61 /* PlayerViewController.swift in Sources */,
+				6315EA721C7F3292003E0D61 /* YoutubeCell.swift in Sources */,
+				6315EA741C7F3292003E0D61 /* YoutubeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6315EA4D1C7F318D003E0D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315EA561C7F318D003E0D61 /* Yoga_With_Brett_LarkinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6315EA531C7F318D003E0D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315EA3C1C7F318D003E0D61 /* Yoga With Brett Larkin */;
+			targetProxy = 6315EA521C7F318D003E0D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6315EA441C7F318D003E0D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6315EA451C7F318D003E0D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6315EA491C7F318D003E0D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6315EA4A1C7F318D003E0D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6315EA581C7F318D003E0D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6315EA591C7F318D003E0D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6315EA5B1C7F318D003E0D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yoga With Brett Larkin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayk.Yoga-With-Brett-Larkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6315EA5C1C7F318D003E0D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yoga With Brett Larkin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayk.Yoga-With-Brett-Larkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6315EA5E1C7F318D003E0D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yoga With Brett LarkinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayk.Yoga-With-Brett-LarkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoga With Brett Larkin.app/Yoga With Brett Larkin";
+			};
+			name = Debug;
+		};
+		6315EA5F1C7F318D003E0D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yoga With Brett LarkinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayk.Yoga-With-Brett-LarkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoga With Brett Larkin.app/Yoga With Brett Larkin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6315EA381C7F318D003E0D61 /* Build configuration list for PBXProject "Yoga With Brett Larkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6315EA581C7F318D003E0D61 /* Debug */,
+				6315EA591C7F318D003E0D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6315EA5A1C7F318D003E0D61 /* Build configuration list for PBXNativeTarget "Yoga With Brett Larkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6315EA5B1C7F318D003E0D61 /* Debug */,
+				6315EA5C1C7F318D003E0D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6315EA5D1C7F318D003E0D61 /* Build configuration list for PBXNativeTarget "Yoga With Brett LarkinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6315EA5E1C7F318D003E0D61 /* Debug */,
+				6315EA5F1C7F318D003E0D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6315EA351C7F318D003E0D61 /* Project object */;
+}
